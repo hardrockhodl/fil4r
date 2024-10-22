@@ -1,0 +1,61 @@
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: linear-gradient(to bottom right, #3b82f6, #9333ea);
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 28rem;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #e5e7eb;
+    color: #4b5563;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-button:first-child {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .tab-button:last-child {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .tab-button.active {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+  
+  .icon {
+    margin-right: 0.5rem;
+  }
