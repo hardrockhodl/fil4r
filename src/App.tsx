@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="card">
-        <h1 className="title">One-Time File Share</h1>
+        <h1 className="title">fil4r</h1>
         <div className="tab-buttons">
           <button
             className={`tab-button ${activeTab === 'upload' ? 'active' : ''}`}

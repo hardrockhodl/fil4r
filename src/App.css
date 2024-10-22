@@ -5,6 +5,7 @@
     justify-content: center;
     padding: 1rem;
     background: linear-gradient(to bottom right, #3b82f6, #9333ea);
+    font-family: "IBM Plex Mono", monospace;
   }
   
   .card {
